@@ -6,8 +6,8 @@ function Navbar() {
             <div className="container mx-auto flex justify-between">
                 <h1 className="text-2xl font-bold">My Blog</h1>
                 <div className="space-x-4">
-                    <a href="/" className="hover:text-gray-400">Home</a>
-                    <a href="/all-posts" className="hover:text-gray-400">All Posts</a>
+                    <a href="/my-blog/" className="hover:text-gray-400">Home</a>
+                    <a href="/my-blog/all-posts" className="hover:text-gray-400">All Posts</a>
                 </div>
             </div>
         </nav>
