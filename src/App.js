@@ -11,7 +11,7 @@ function App() {
       <main className="min-h-screen bg-black">
         <Routes> {/* Replace Switch with Routes */}
           <Route exact path="/" element={<Home />} /> {/* Update Route syntax */}
-          <Route path="/my-blog/" element={<Home />} /> {/* Update Route syntax */}
+          <Route path="/my-blog" element={<Home />} /> {/* Update Route syntax */}
           <Route path="/my-blog/all-posts" element={<AllPostList />} /> {/* Update Route syntax */}
           <Route path="/post/:id" element={<PostDetail />} />
         </Routes>
