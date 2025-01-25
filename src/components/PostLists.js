@@ -8,8 +8,9 @@ function PostList({ posts }) {
         var dateB = new Date(b.date);
         return dateB - dateA;
     }).slice(0, 3);
+    window.scrollTo(0, 0);
     return (
-        <div className="container bg-black p-8 pt-24">
+        <div className="container bg-black p-8 pt-20">
             <h1 className="text-3xl font-bold text-white pb-4">Recent Posts</h1>
             <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
                 {newRecentPosts.map(post => (
