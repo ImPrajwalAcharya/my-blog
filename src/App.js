@@ -23,6 +23,7 @@ function App() {
           <Route path={ROUTES.HOME} element={<Home />} />
           <Route path={ROUTES.ALL_POSTS} element={<AllPostList />} />
           <Route path={ROUTES.POST_DETAIL} element={<PostDetail />} />
+          <Route path={ROUTES.SEARCH} element={<AllPostList />} />
           <Route path={ROUTES.NOT_FOUND} element={<NoPage />} />
         </Routes>
       </Suspense>

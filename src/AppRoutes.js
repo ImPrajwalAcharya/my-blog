@@ -1,8 +1,9 @@
 const ROUTES = {
-    HOME: "/",
-    ALL_POSTS: "/all-posts",
-    POST_DETAIL: "/post/:id",
-    NOT_FOUND: "*",
-  };
+  HOME: "/",
+  ALL_POSTS: "/all-posts",
+  POST_DETAIL: "/post/:id",
+  NOT_FOUND: "*",
+  SEARCH: "/search/:query",
+};
 
-  export default ROUTES;
+export default ROUTES;
