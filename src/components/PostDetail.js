@@ -75,7 +75,7 @@ function PostDetail() {
         const parsedDate = new Date(date);
         if (isToday(parsedDate)) return 'Today';
         if (isYesterday(parsedDate)) return 'Yesterday';
-        return format(parsedDate, 'dd MMM yyyy'); // Format date as 22 Nov 2024
+        return format(parsedDate, 'EEEE, MMMM yyyy'); // Format date as 22 Nov 2024
     };
 
     // Show loading state if data is still being fetched
